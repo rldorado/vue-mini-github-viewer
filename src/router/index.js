@@ -13,6 +13,11 @@ Vue.use(VueRouter)
     path: '/:username',
     name: 'User',
     component: () => import(/* webpackChunkName: "user" */ '../views/User.vue')
+  },
+  {
+    path: '/:username/:repo',
+    name: 'Project',
+    component: () => import(/* webpackChunkName: "project" */ '../views/Project.vue')
   }
 ]
 
