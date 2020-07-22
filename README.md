@@ -1,4 +1,13 @@
-# vue-mini-github-viewer
+# Mini GitHub Viewer
+
+Small and simple GitHub viewer made with Vue.
+
+### Technologies
+
+- Vue
+- Vue router
+- [Axios](https://github.com/axios/axios)
+- [GitHub API](https://developer.github.com/v3/)
 
 ## Project setup
 ```
